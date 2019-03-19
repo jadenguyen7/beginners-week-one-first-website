@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The title is what appears on the browser tab</title>
+  </head>
+<body>
+  After the head section (which isn't visible to the client) the body follows, which is the part that is visible to the client. Everything writen within the body tags will appear on the page for the client to see. Usually, the body section would start with headers which usually goes down in size from 1-6, 1 being the biggest and then 6 being the smallest heading in size.
+  <h1>Header 1</h1>
+  <h2>Header 2</h2>
+  <h3>Header 3</h3>
+  <h4>Header 4</h4>
+  <h5>Header 5</h5>
+  <h6>Header 6</h6>
+
+  <p>After the headers, you would want to add paragraphs which is done using 'p' tags.
+  <br />If you want to write text on a new line but not as a new paragraph, you use the 'br' tag.
+  <p>If you want to add <em>emphasis</em> to the text then you use the 'em' tag.</p>
+  <p>If you want to make text <b>bold</b> then use the 'b' tag.</p>
+  <p>If you want to <u>underline</u> text then use the 'u' tag.</p>
+  <p>If you want to change the <font color="blue">font color</font> then you need to start with a open angled bracket, then write 'font' as the attribute and 'color' as the value, with '=' and double quoations, followed by the colour you want the text, double quotations again and a closed angled bracket. You then need to close the tag with a closing font tag otherwise the rest of the sentence will also be in colour.</p>
+  <p>To add a image, you have to add an image link to the souce, with the exact name of the image file, otherwise it will not locate it. Start with an open angled bracket, followed by 'img src=' then double quotations and then the name of the image file, then double quotations. This would then usually be followed by 'alt' which is the default name of the image for when the image does not load properly. If you want to chnage the size of the image then the 'width' value would follow with the pixel size you want the picture eg '200px'. This will then be followed by a closed angled bracket. This is a self-closing tag so you don't need to write a forward closing slash.</p>
+  <img src="codefirstgirls.jpg" alt="first code first girls session" width="200px">
+  <p>If you want to write an ordered list that is numbered, use the 'ol' tag. Then within these tags, use the list tags which is 'li'. After the list remember to close the 'ol' tag to end the list.</p>
+  <ol>
+    <li>So the first of the list is numbered 1.</li>
+    <li>The next list is number 2</li>
+    <li>And then so on in chronoilogical order</li>
+  </ol>
+  <p>If you want to write an unordered list this is bulletpointed, use the 'ul' tag. Then within these tags, use the list tags which is 'li'. After the list remember to close the 'ul' tag to end the list.</p>
+  <ul>
+    <li>So this has the same structure of the ordered list</li>
+    <li>But instead of being numbered..</li>
+    <li>The text is listed in bulletpoints</li>
+  </ul>
+
+  <!---this is a comment. It isn't visible to the client but it is a way to tell other developers what it is you're doing-->
+
+  <p>Tables are used for holding data. To start a table you need to use an open angled bracket followed by 'table' as the attribute, then the class as 'table' in quoations marks, then closed with a closed angled bracket. So it should look like this 'table class=table' but with the angled brackets on either side.</p>
+  <p>To create the table headings which will be in bold, use the 'th' tag, which is the same as the heading tag but for a table.</p>
+  <p>To create table rows use the 'tr' tag.</p>
+  <p>To create data cells use the 'td' tag.</p>
+ <table class='table'>
+   <tr>
+     <th>Name</th>
+     <th>Country</th>
+   </tr>
+   <tr>
+     <td>Jade</td>
+     <td>United Kingdom</td>
+   </tr>
+   <tr>
+     <td>Julie</td>
+     <td>Vietnam</td>
+   </tr>
+   <tr>
+     <td>Courtney</td>
+     <td>Australia</td>
+   </tr>
+ </table>
+
+
+  </body>
+
+</html>
